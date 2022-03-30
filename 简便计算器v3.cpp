@@ -37,7 +37,7 @@ int main()
 		{
 			mul=s[i-1]-'0' * s[i+1]-'0';
 			ans+=mul;
-			s[i+1]=ans;
+			s[i+1]=mul;
 			i++;
 		}
 		//乘法 
@@ -45,7 +45,7 @@ int main()
 		{
 			div=s[i-1]-'0' / s[i+1]-'0';
 			ans+=div;
-			s[i+1]=ans;
+			s[i+1]=div;
 		
 			i++;
 		}
