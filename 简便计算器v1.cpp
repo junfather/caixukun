@@ -17,6 +17,6 @@ int main()
 			i++;
 		}
 	} 
-	printf("v1���ǣ�%d",sum);
+	printf("v1´ð°¸ÊÇ£º%d",sum);
 	return 0;
 }
