@@ -21,7 +21,7 @@ int main()
 			}		
 		}
 		//加法 
-		if(s[i] == '-')
+		else if(s[i] == '-')
 		{
 			if(s[i+2]=='*' || s[i+2]=='/')
 				i++;
@@ -33,7 +33,7 @@ int main()
 			}
 		}
 		//减法 
-		if(s[i] == '*')
+		else if(s[i] == '*')
 		{
 			mul=s[i-1]-'0' * s[i+1]-'0';
 			ans+=mul;
@@ -41,7 +41,7 @@ int main()
 			i++;
 		}
 		//乘法 
-		if(s[i] == '/')
+		else if(s[i] == '/')
 		{
 			div=s[i-1]-'0' / s[i+1]-'0';
 			ans+=div;
