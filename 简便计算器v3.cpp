@@ -35,7 +35,7 @@ int main()
 		//减法 
 		else if(s[i] == '*')
 		{
-			mul=（s[i-1]-'0' ）* （s[i+1]-'0'）;
+			mul=(s[i-1]-'0' )* (s[i+1]-'0');
 			ans+=mul;
 			s[i+1]=mul;
 			i++;
@@ -43,7 +43,7 @@ int main()
 		//乘法 
 		else if(s[i] == '/')
 		{
-			div=（s[i-1]-'0'） / （s[i+1]-'0'）;
+			div=(s[i-1]-'0') / (s[i+1]-'0');
 			ans+=div;
 			s[i+1]=div;
 		
